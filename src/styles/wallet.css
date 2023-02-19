@@ -1,0 +1,61 @@
+.Wallet{
+    /* background: #babeef; */
+    padding: 15px;
+    text-align: center;
+    /* border-radius: 25px; */
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Wallet span{
+    width: 500px;
+    height: 500px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.Wallet span i{
+    font-size: 2.5rem;
+}
+
+.Wallet h5{
+    color: #000;
+    margin-top: 15px;
+}
+
+.Wallet p{
+    font-size: .8rem;
+    line-height: 28px;
+}
+.cWallet {
+    /* background: linear-gradient(-45deg, #4B50E6, #4B50E6, #4B50E6, #4B50E6); */
+    color: Black;
+    font-weight: 400;
+    /* background-clip: text; */
+    /* -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #FDF5DF; */
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 20px;
+    /* border-color: black; */
+    border: 1px black solid;
+    width: 14rem;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+    
+}
+.cWallet:hover {
+    background-color: #babeef;
+    transition: 0.5s ease;
+}
+/* .header {
+    background-color: #babeef;
+    margin-bottom: none;
+    height: 130px;
+} */

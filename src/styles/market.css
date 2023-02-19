@@ -1,0 +1,22 @@
+.all__category__filter select,
+.all__items__filter select,
+.filter__right select {
+    padding: 7px 25px;
+    font-size: .9rem;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #babeef;
+    border-radius: .3rem;
+}
+
+@media (max-width: 768px) {
+
+    .all__category__filter select,
+    .all__items__filter select,
+    .filter__right select {
+        padding: 6px 20px;
+        font-size: .7rem;
+    }
+}
